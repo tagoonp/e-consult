@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>E-Consultation :: Electornic Consultation System</title>
+    <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="libs/jquery/jquery.js"></script>
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/master.css" >
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+  </head>
+  <body>
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html" style="font-size: 1.7em; color: #000;"><strong>e-Consultation</strong></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">About project</a></li>
+            <li><a href="#contact">Report problem</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right" style="padding-right: 20px; padding-top: 7px;">
+            <button type="button" name="button" class="btn btn-primary" style="width: 100px;">Sign in</button>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+    <div class="container">
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="col-md-8" style="padding-top: 0px;">
+        <div class="padding10">
+          <div class="text-title" style="font-size: 3.4em; line-height: normal; padding-top: 10px; padding-bottom:10px; padding-left: 10px;">
+            <div class="text-left thfont">
+              <h1 class="h1"><strong>Electronic Consultation System</strong></h1>
+              <p style="font-size: 0.4em;">
+                Powerful collaboration, code review, and code management for open source and private projects. Public projects are always free.
+              </p>
+            </div>
+          </div>
+
+          <div class="text-content" style="padding-top: 10px; padding-left: 10px; padding-bottom: 20px;" >
+            <div class="text-left">
+              <strong>Powered by</strong>
+            </div>
+          </div>
+          <div class="row">
+            <img src="images/eu-whocc-logo.png" alt="IT Office, Epidemiology Unit" width="300" />&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="images/itoffice.jpg" alt="IT Office, Epidemiology Unit" width="110" />&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="images/medpsu.jpg" alt="IT Office, Epidemiology Unit"  width="90" />&nbsp;&nbsp;&nbsp;&nbsp;
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="text-title" style="padding-top: 20px;">
+        </div>
+
+        <div class="padding20" style="padding-top: 10px;">
+          <form id="loginForm" class="form-horizontal">
+
+            <div class="form-group" id="txt1">
+                <input class="form-control inp" name="txtUsername" id="txtUsername" placeholder="Pick a username" type="text" autofocus="">
+            </div>
+            <div class="form-group" id="txt2">
+                <input class="form-control inp" name="txtEmail" id="txtEmail" placeholder="Your email address" type="email" >
+            </div>
+            <div class="form-group" id="txt3">
+                <input class="form-control inp" name="txtPassword" id="txtPassword" placeholder="Create a password" type="password">
+                <p style="padding-top:10px;">
+                  Use 6 - 15 charectors create your password.
+                </p>
+            </div>
+
+            <div class="form-group" style="padding-top: 0px;">
+                <button type="submit" name="button" class="btnw btnw-success btn-block">Sign up for E-consult</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="text-center text-content" style="padding-top: 20px; padding-bottom: 20px;">
+            Copyright 2015 © under powered by IT office, Epidemiology Unit - <a href="http://medipe2.psu.ac.th" class="link-a">http://medipe2.psu.ac.th</a> | 6th Floor Administrative Building, Faculty of Medicine, Prince of Songkla University.
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script type="text/javascript" src="js/index.js"></script>
+</html>

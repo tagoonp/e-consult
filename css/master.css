@@ -1,0 +1,39 @@
+html, body{  font-family: 'Oxygen', sans-serif; }
+
+/*.has-error2{
+  border-color: red;
+}*/
+
+.inp{
+  border: solid;
+  border-width: 1px;
+  border-color: #ccc;
+  border-radius: 5px;
+  outline: none;
+  padding: 1.2em;
+  font-size: 1.3em;
+  outline: none;
+}
+
+.btnw{
+  font-family: 'Oxygen', sans-serif;
+  border:none;
+  border-radius: 5px;
+  padding: 10px 15px 10px 15px;
+  cursor: pointer;
+  outline: none;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.btnw-default{  background: #ccc; color: #fff; }
+.btnw-default:hover {  background: #AFBC9C; color: #fff; }
+
+.btnw-primary{  background: #9EEC2D; color: #fff; }
+.btnw-primary:hover{  background: #61A400; color: #fff; }
+
+.btnw-danger{  background: #F45151; color: #fff; }
+.btnw-danger:hover{  background: #BA1010; color: #fff; }
+
+.btnw-success{  background: #61A400; color: #fff; }
+.btnw-success:hover {  background: #7CD200; color: #fff; }
